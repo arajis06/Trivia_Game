@@ -1,0 +1,28 @@
+html {
+    box-sizing: border-box;
+}
+body {
+    background-color: black; 
+}
+.container {
+    background-color: black;
+    border: 3px solid white;
+}
+
+.jumbotron { 
+    background-image: url(../images/logo3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    padding-top: 0;
+    margin-bottom: 0;
+}
+
+.logo {
+    text-align: center;
+}
+img {
+    width: 35%;
+}
