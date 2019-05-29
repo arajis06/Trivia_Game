@@ -25,10 +25,22 @@ body {
 }
 #time-left {
     color: rgba(255, 0, 0, 0.795);
+    margin-top: -20px;
 }
 .answer-choice {
     display: block;
     margin: 0 auto;
+    background-color: black;
+	color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	/* padding: 20px; */
+    /* margin-top: 100px; */
+}
+    
+.answer-choice:hover {
+        background-color: green;
+    
 }
 #answer-section {
     color: white;
@@ -54,7 +66,11 @@ body {
 }
 h1 {
     color: whitesmoke;
-    font-size: 28px;
+    font-size: 32px;
+    border-bottom: 5px solid white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 20px;
 }
 /* h3 { */
     /* font-size: 20px; */
