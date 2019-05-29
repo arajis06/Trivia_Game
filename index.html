@@ -10,39 +10,53 @@
 </head>
 
 <body>
-
-   <div class = "jumbotron mb-30px"></div>
-
-     <div class = "container">
-
+     <div class = "header-container text-center">
+        <img class="characters" src= "assets/images/justice.png">
+   </div>
+           
+        <div class = "container">
             <div class = "row text-center">
                 <div class = "col-lg-12 logo">
-                    <img src = "assets/images/justice-league-logo2.png">
+                        <!--<img class="name" src = "assets/images/justice-league-logo2.png">-->
                         <h1>Trivia Game</h1>
                 </div>
-            </div>    
+            </div>
+            
+            <br>
             
             <div class = "row">
                 <div class = "col-md-12 text-center text-white ">
-                    <h2 id= "time-left"></h2>                
+                    <h4 id= "time-left"></h4>                
+                </div>
+            </div>
+
+            <br>
+
+            <div class = "row">
+                <div class = "col-md-12 text-center text-white">
+                    <h4 id= "question-section"></h4>
                 </div>
             </div>
 
             <div class = "row">
                 <div class = "col-md-12 text-center">
-                    <div id= "question-block"></div>
+                    <h4 id= "answer-section"></h4>
+                
                 </div>
             </div>
 
             <div class = "row">
                 <div class = "col-md-12 text-center">
-                    <div id= "answer-block"></div>
+                    <h4 id= "correct"></h4>
+                    <h4 id= "incorrect"></h4>
+                    <h4 id= "unanswered"></h4>
                 </div>
             </div>
-
+    
             <div class = "row">
                 <div class = "col-md-12 text-center">
-                    <button class ="btn btn-light" id ="start">Start</button><br><br>
+                    <button class ="btn btn-light" id ="start">Play</button><br>
+                    <button class ="btn btn-light" id ="restart">Play again!</button><br>
                 </div>
             </div>
             

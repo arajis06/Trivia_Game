@@ -4,28 +4,55 @@ html {
 body {
     background-color: black; 
 }
+.header-container {
+
+    background-image: url(../images/justice-league-logo2.png);  
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: 30%;  
+    height: 200px;
+    background-position-y: 22%;
+    margin: -30px;
+    opacity: 0%;
+}
 .container {
     background-color: black;
     border: 3px solid white;
+    width: 770px;
+    position: relative;
+    z-index: 2;
+    margin-top: 70px;
 }
-
-.jumbotron { 
-    background-image: url(../images/logo3.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 350px;
-    padding-top: 0;
-    margin-bottom: 0;
+.answer-choice {
+    display: block;
+    margin: 10px auto;
+}
+.images {
+    width: 400px;
+    height: auto;
 }
 
 .logo {
     text-align: center;
 }
-img {
-    width: 35%;
+.background-img {
+    vertical-align: middle;
+    border-style: none;
+    width: 30%;
+}
+.characters {
+    width: 70%;
+    margin: -65px;
+    position: relative;
+    z-index: 1;
 }
 h1 {
     color: whitesmoke;
+    font-size: 26px;
+}
+h3 {
+    font-size: 20px;
+}
+P {
+    font-size: 20px;
 }
