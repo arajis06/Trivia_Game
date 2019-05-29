@@ -21,11 +21,17 @@ body {
     width: 770px;
     position: relative;
     z-index: 2;
-    margin-top: 70px;
+    margin-top: 50px;
+}
+#time-left {
+    color: rgba(255, 0, 0, 0.795);
 }
 .answer-choice {
     display: block;
-    margin: 10px auto;
+    margin: 0 auto;
+}
+#answer-section {
+    color: white;
 }
 .images {
     width: 400px;
@@ -48,11 +54,11 @@ body {
 }
 h1 {
     color: whitesmoke;
-    font-size: 26px;
+    font-size: 28px;
 }
-h3 {
-    font-size: 20px;
-}
-P {
+/* h3 { */
+    /* font-size: 20px; */
+/* } */
+p {
     font-size: 20px;
 }
