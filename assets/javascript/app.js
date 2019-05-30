@@ -76,7 +76,7 @@
     var correctCount = 0;
     var wrongCount = 0;
     var unanswerCount = 0;
-    var timer = 10;
+    var timer = 3;
     var intervalId;
     var qIndex;
     var qPicked;
@@ -179,12 +179,13 @@
     // HIDES PHOTO
         var hidpic = setTimeout(function() {
             $("#answer-section").empty();
-            timer= 10;
+            timer= 3;
         //==============================
     
         var qCount = triviaOptions.length;
+        console.log(qCount);
         //DISPLAYS RESULTS FROM GAME AND DISPLAY IN THE INDEX.HTML FILE
-        if ((wrongCount + correctCount + unanswerCount) === qCount) {
+        if ((wrongCount + correctCount + unanswerCount) === 12) {
             $("#question-section").empty();
             $("#question-section").html("<h4>Game Over! Scores: </h4>");
             $("#answer-section").append("<h5> Correct: " + correctCount + "</h5>" );
@@ -194,6 +195,7 @@
             correctCount = 0;
             wrongCount = 0;
             unanswerCount = 0;
+            console.log(qCount);
     
         } else {
             runTimer();
@@ -201,7 +203,7 @@
     
         }
         }, 1000);//THIS SETS THE TIME BETWEEN QUESTIONS DELAY
-    
+
     
     }
 
