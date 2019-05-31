@@ -76,7 +76,7 @@
     var correctCount = 0;
     var wrongCount = 0;
     var unanswerCount = 0;
-    var timer = 3;
+    var timer = 10;
     var intervalId;
     var qIndex;
     var qPicked;
@@ -179,7 +179,7 @@
     // HIDES PHOTO
         var hidpic = setTimeout(function() {
             $("#answer-section").empty();
-            timer= 3;
+            timer= 10;
         //==============================
     
         var qCount = triviaOptions.length;
